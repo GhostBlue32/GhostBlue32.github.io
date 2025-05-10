@@ -105,3 +105,10 @@ deploy:
   type: git
   repo: git@github.com:GhostBlue32/GhostBlue32.github.io.git
   branch: gh-pages
+
+
+widget:
+  notice:
+    enable: true
+    title: 最新动态
+    content: 欢迎来到我的读书笔记博客！
