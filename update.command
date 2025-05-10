@@ -8,7 +8,8 @@ python3 sync.py
 
 # 2. 提交并推送源码分支
 git add .
-git commit -m "chore: sync notes from Obsidian" || true
+MSG="sync notes at $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "$MSG" || true
 git push origin main
 
 # 3. 生成 & 部署到 gh-pages
