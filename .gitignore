@@ -1,0 +1,12 @@
+# Hexo 生成的静态产物
+public/
+db.json
+package-lock.json
+
+# 若你直接在项目根目录下生成静态文件，也一并忽略
+css/
+js/
+fancybox/
+archives/
+2025/
+index.html

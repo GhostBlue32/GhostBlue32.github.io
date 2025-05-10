@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:GhostBlue32/GhostBlue32.github.io.git
-  branch: main
+  branch: gh-pages
